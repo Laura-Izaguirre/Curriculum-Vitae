@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+}
+
+.header {
+    background-color: pink;
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+
+    &__div {
+        &__presentation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__picture {
+                width: 40%;
+                border: 0.5rem solid rgb(214, 139, 214);
+                border-radius: 50%;
+            }
+        
+            &__caption:link, &__caption:visited {
+                text-decoration: none;
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .navbar {
+        &__menu {
+
+            &__item {
+                &__icon {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+                &__link {
+
+                }
+            }
+            span {
+                color: white;
+            }
+        }
+    }
+}
