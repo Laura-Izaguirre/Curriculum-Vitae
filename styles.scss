@@ -45,3 +45,40 @@ body {
         }
     }
 }
+
+.main {
+    margin-left: 20vw;
+
+    &__container {
+
+        &__content {
+            &__presentation {
+                position: relative;
+
+                &__background {
+                    width: 80vw;
+                    height: 70vh;
+
+                }
+    
+                &__caption {
+                    background-color: transparent;
+                    color: white;
+                    position: absolute;
+                    top: 30vh;
+    
+                } 
+            }
+
+            &__caption {
+                color: rgb(214, 139, 214);
+            }
+
+            &__description {
+                
+            }
+        }
+    }
+
+
+}

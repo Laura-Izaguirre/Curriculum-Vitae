@@ -31,4 +31,24 @@ body {
   color: white;
 }
 
+.main {
+  margin-left: 20vw;
+}
+.main__container__content__presentation {
+  position: relative;
+}
+.main__container__content__presentation__background {
+  width: 80vw;
+  height: 70vh;
+}
+.main__container__content__presentation__caption {
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  top: 30vh;
+}
+.main__container__content__caption {
+  color: rgb(214, 139, 214);
+}
+
 /*# sourceMappingURL=styles.css.map */
