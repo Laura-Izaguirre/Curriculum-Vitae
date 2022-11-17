@@ -1,13 +1,9 @@
-/*#0F1020*/
-body {
-    width: 100vw;
-}
-
 .header {
     background-color: black;
     position: fixed;
     height: 100vh;
     width: 20vw;
+    z-index: 5;
 
     &__div {
         &__presentation {
@@ -48,14 +44,14 @@ body {
 
 .main {
     margin-left: 20vw;
-
+    width: 80vw;
+    
     #home {
-        width: 80vw;
-
+        
     }
-
+    
     &__container {
-
+        
         &__content {
             &__presentation {
                 position: relative;
@@ -82,24 +78,25 @@ body {
             }
 
             &__caption {
-                color:  #2F195F;
+                color:  #0F3D3E;
             }
 
             &__description {
+                width: 75vw;
                 
             }
 
             &__div {
 
                 &__width {
-                    width: 80vw;
+                    width: 55vw;
                 }
 
                 &__image {
-                    width: 25vw;
+                    width: 20vw;
                 }
                 &__sub {
-
+                    color:  #0F3D3E;
                 }
 
                 &__paragraph {
@@ -113,6 +110,21 @@ body {
                     }
                 }
             }
+
+            .card {
+                width: 18rem;
+            }
+                
+            .card-img-top {
+                    width: 100%;
+                    height: 45%;
+            }
+            .btn {
+                background-color: #0F3D3E;
+                border: none;
+            }
+
+
         }
     }
 

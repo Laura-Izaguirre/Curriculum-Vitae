@@ -1,13 +1,9 @@
-/*#0F1020*/
-body {
-  width: 100vw;
-}
-
 .header {
   background-color: black;
   position: fixed;
   height: 100vh;
   width: 20vw;
+  z-index: 5;
 }
 .header__div__presentation {
   display: flex;
@@ -33,8 +29,6 @@ body {
 
 .main {
   margin-left: 20vw;
-}
-.main #home {
   width: 80vw;
 }
 .main__container__content__presentation {
@@ -57,16 +51,33 @@ body {
   text-align: center;
 }
 .main__container__content__caption {
-  color: #2F195F;
+  color: #0F3D3E;
+}
+.main__container__content__description {
+  width: 75vw;
 }
 .main__container__content__div__width {
-  width: 80vw;
+  width: 55vw;
 }
 .main__container__content__div__image {
-  width: 25vw;
+  width: 20vw;
+}
+.main__container__content__div__sub {
+  color: #0F3D3E;
 }
 .main__container__content__div__list {
   list-style: none;
+}
+.main__container__content .card {
+  width: 18rem;
+}
+.main__container__content .card-img-top {
+  width: 100%;
+  height: 45%;
+}
+.main__container__content .btn {
+  background-color: #0F3D3E;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
