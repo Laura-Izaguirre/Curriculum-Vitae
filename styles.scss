@@ -1,9 +1,10 @@
+/*#0F1020*/
 body {
     width: 100vw;
 }
 
 .header {
-    background-color: pink;
+    background-color: black;
     position: fixed;
     height: 100vh;
     width: 20vw;
@@ -15,7 +16,6 @@ body {
             align-items: center;
             &__picture {
                 width: 40%;
-                border: 0.5rem solid rgb(214, 139, 214);
                 border-radius: 50%;
             }
         
@@ -49,6 +49,11 @@ body {
 .main {
     margin-left: 20vw;
 
+    #home {
+        width: 80vw;
+
+    }
+
     &__container {
 
         &__content {
@@ -57,25 +62,56 @@ body {
 
                 &__background {
                     width: 80vw;
-                    height: 70vh;
+                    height: 40vh;
 
                 }
     
                 &__caption {
                     background-color: transparent;
                     color: white;
+                    font-weight: bold;
+                    font-size: 2.5rem;
                     position: absolute;
-                    top: 30vh;
+                    top: 15vh;
+                    bottom: 15vh;
+                    left: 10vw;
+                    right: 10vw;
+                    text-align: center;
     
                 } 
             }
 
             &__caption {
-                color: rgb(214, 139, 214);
+                color:  #2F195F;
             }
 
             &__description {
                 
+            }
+
+            &__div {
+
+                &__width {
+                    width: 80vw;
+                }
+
+                &__image {
+                    width: 25vw;
+                }
+                &__sub {
+
+                }
+
+                &__paragraph {
+
+                }
+
+                &__list {
+                    list-style: none;
+                    &__item {
+
+                    }
+                }
             }
         }
     }

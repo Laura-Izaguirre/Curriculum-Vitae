@@ -1,9 +1,10 @@
+/*#0F1020*/
 body {
   width: 100vw;
 }
 
 .header {
-  background-color: pink;
+  background-color: black;
   position: fixed;
   height: 100vh;
   width: 20vw;
@@ -15,7 +16,6 @@ body {
 }
 .header__div__presentation__picture {
   width: 40%;
-  border: 0.5rem solid rgb(214, 139, 214);
   border-radius: 50%;
 }
 .header__div__presentation__caption:link, .header__div__presentation__caption:visited {
@@ -34,21 +34,39 @@ body {
 .main {
   margin-left: 20vw;
 }
+.main #home {
+  width: 80vw;
+}
 .main__container__content__presentation {
   position: relative;
 }
 .main__container__content__presentation__background {
   width: 80vw;
-  height: 70vh;
+  height: 40vh;
 }
 .main__container__content__presentation__caption {
   background-color: transparent;
   color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
   position: absolute;
-  top: 30vh;
+  top: 15vh;
+  bottom: 15vh;
+  left: 10vw;
+  right: 10vw;
+  text-align: center;
 }
 .main__container__content__caption {
-  color: rgb(214, 139, 214);
+  color: #2F195F;
+}
+.main__container__content__div__width {
+  width: 80vw;
+}
+.main__container__content__div__image {
+  width: 25vw;
+}
+.main__container__content__div__list {
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
