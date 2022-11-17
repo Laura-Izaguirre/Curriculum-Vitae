@@ -30,17 +30,14 @@
     </header>
 
     <main class="main">
+      <section id="home" class="main__container">
+        <div class="main__container__content__presentation">
+          <img class="main__container__content__presentation__background" src="https://wc.wallpaperuse.com/wallp/2-25632_s.jpg" alt="Fondo-rosa">
+          <h2 class="main__container__content__presentation__caption">Hello, my name is Laura and I'm a Front-end developer</h2>
+        </div>
+      </section>
 
       <section class="main__container">
-         
-
-        <section id="home" class="main__container__content">
-          <div class="main__container__content__presentation">
-            <img class="main__container__content__presentation__background" src="https://wc.wallpaperuse.com/wallp/2-25632_s.jpg" alt="Fondo-rosa">
-            <h2 class="main__container__content__presentation__caption">Hello, my name is Laura and I'm a Front-end developer</h2>
-          </div>
-        </section>
-
         <section id="about" class="main__container__content">
           <h2 class="main__container__content__caption">About</h2>
           <p class="main__container__content__description">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -64,19 +61,22 @@
                 <p class="main__container__content__div__paragraph">Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
               </div>
             </div>
+        </section>
 
+        <section id="portfolio" class="main__container">
+          <section class="main__container__content">
             <h2 class="main__container__content__caption">Projects</h2>
-
+  
             <section class="main__container__content d-flex justify-content-evenly">
-
+  
               <div class="card">
                 <img src="./Images/proyecto_a.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Johnathan Specter</h5>
                   <p class="card-text">Recreación de página responsiva adaptable a tres tamaños distintos de pantalla.</p>
                   <div class="d-flex justify-content-evenly">
-                    <a href="https://laura-izaguirre.github.io/Portafolio-avanzado/" class="btn btn-primary">See live</a>
-                    <a href="https://github.com/Laura-Izaguirre/Portafolio-avanzado.git" class="btn btn-primary">See source</a>
+                    <a href="https://laura-izaguirre.github.io/Portafolio-avanzado/" class="btn btn-primary" target="_blank">See live</a>
+                    <a href="https://github.com/Laura-Izaguirre/Portafolio-avanzado.git" class="btn btn-primary" target="_blank">See source</a>
                   </div>
                 </div>
               </div>
@@ -86,8 +86,8 @@
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Página de Bodega El Kiosko, muestra imágenes de los diferentes productos que ofrecen, las cuales cuentan con una descripción desplegable.</p>
                   <div class="d-flex justify-content-evenly">
-                    <a href="https://laura-izaguirre.github.io/Bodega-El-Kiosko/" class="btn btn-primary">See live</a>
-                    <a href="https://github.com/Laura-Izaguirre/Bodega-El-Kiosko.git" class="btn btn-primary">See source</a>
+                    <a href="https://laura-izaguirre.github.io/Bodega-El-Kiosko/" class="btn btn-primary" target="_blank">See live</a>
+                    <a href="https://github.com/Laura-Izaguirre/Bodega-El-Kiosko.git" class="btn btn-primary" target="_blank">See source</a>
                   </div>
                 </div>
               </div>
@@ -97,12 +97,42 @@
                   <h5 class="card-title">E-commerce with Boostrap</h5>
                   <p class="card-text">Página de E-commerce para una tienda de artículos para ciclistas utilizando Bootstrap.</p>
                   <div class="d-flex justify-content-evenly">
-                    <a href="https://laura-izaguirre.github.io/E-commerce-with-bootstrap/" class="btn btn-primary">See live</a>
-                    <a href="https://github.com/Laura-Izaguirre/E-commerce-with-bootstrap.git" class="btn btn-primary">See source</a>
+                    <a href="https://laura-izaguirre.github.io/E-commerce-with-bootstrap/" class="btn btn-primary" target="_blank">See live</a>
+                    <a href="https://github.com/Laura-Izaguirre/E-commerce-with-bootstrap.git" class="btn btn-primary" target="_blank">See source</a>
                   </div>
                 </div>
               </div>
-            </section>
+          </section>
+
+          </section>
+
+        <section id="contact" class="main__container">
+          <section class="main__container__content">
+            <h2 class="main__container__content__caption">Contact</h2>
+  
+            <form action="" class="main__container__content__form">
+  
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control">
+              </div>
+  
+              <div class="mb-3">
+                <label for="" class="form-label">Email address</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp">
+              </div>
+              
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                <input type="text" class="form-control">
+              </div>
+  
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </section>
+
+        </section>
+
       </section>
 
     </main>
