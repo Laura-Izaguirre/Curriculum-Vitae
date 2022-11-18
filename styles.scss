@@ -47,14 +47,16 @@
     width: 80%;
     
     #home {
-        
+        width: 100%;
+        height: 40vh;
+        background-attachment: fixed;
     }
     
     &__container {
         
         &__content {
-
             padding: 3% 5% 5% 5%;
+            animation: example 5s linear 2s infinite alternate;
             &__presentation {
                 position: relative;
 
@@ -81,6 +83,7 @@
 
             &__caption {
                 color:  #0F3D3E;
+                text-align: center;
             }
 
             &__description {
@@ -96,6 +99,8 @@
 
                 &__image {
                     width: 20vw;
+                    height: 36vh;
+                    padding-right: 2vw;
                 }
                 &__sub {
                     color:  #0F3D3E;
@@ -115,7 +120,14 @@
             }
 
             .card {
-                width: 18rem;
+                width: 20rem;
+            }
+
+            .card:hover, .card:active {
+                width: 18.5rem;
+                box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
             }
                 
             .card-img-top {
@@ -125,6 +137,17 @@
             .btn {
                 background-color: #0F3D3E;
                 border: none;
+            }
+
+            .btn:link, .btn:visited {
+                box-shadow: -1px 0px 5px 0px #0F3D3E;
+                -webkit-box-shadow: -1px 0px 5px 0px #0F3D3E;
+                -moz-box-shadow: -1px 0px 5px 0px #0F3D3E;
+            }
+
+            .btn:hover, .btn:active {
+                background-color: white;
+                color: #0F3D3E;
             }
 
             &__form {
@@ -139,7 +162,20 @@
             }
 
         }
+
+        @keyframes example {
+            0%   {background-color:rgb(195, 202, 221); }
+            25%  {background-color: white;}
+            50%  {background-color: rgb(195, 202, 221);}
+            75%  {background-color: white;}
+            100% {background-color:rgb(195, 202, 221);}
+          }
+
+        &__content:link, &__content:visited {
+
+        }
     }
+
 
 
 }
